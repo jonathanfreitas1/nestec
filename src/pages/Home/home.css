@@ -1,0 +1,54 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #F9F9F9;
+}
+
+.info{
+    margin: 10%;
+    margin-right: 20%;
+}
+
+.info button {
+    background: #28415D;
+    border-radius: 35px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    width: 250px;
+    height: 72px;
+
+    cursor: pointer;
+}
+
+.info img{
+    margin-bottom: 20%;
+}
+
+.info h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+
+    color: #28415D;
+}
+
+
+.coluna2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.coluna2 > img {
+    height: 50%;
+    margin-right: 20%;
+}

@@ -1,0 +1,151 @@
+.container{
+    height: 100vh;
+    background: #F9F9F9;
+}
+
+.icon svg{
+    color: #FFFFFF;
+    width: 4vw;
+    height: 4vh;
+    margin-left: 2vh;
+}
+
+.icon h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+
+    color: #FFFFFF;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    background: #28415D;
+    height: 294px;
+    width: 100vw;
+}
+
+.centralizarBloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    width: 80%;
+    height: 550px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cabecalho{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bloco h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #28415D;
+}
+
+.inputBotao{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.inputBotao input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    width: 300px;
+    height: 58px;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.inputBotao button{
+    height: 58px;
+    width: 50px;
+    background: #28415D;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.inputBotao svg {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+.checks {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: rgba(0, 0, 0, 0.15);;
+}
+
+.taks span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.task svg {
+    color: #28415D;
+}
+
+.deletar{
+    cursor: pointer;
+}
+
+
+
